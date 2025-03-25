@@ -1,8 +1,8 @@
 version: "3.3"
 services:
-  octave-container:
-    image: gnuoctave/octave:8.2.0
-    container_name: "octave-container"
+  r-container:
+    image: r-base:4.4.3
+    container_name: "r-container"
     working_dir: /mnt
     volumes:
       - ./solution:/mnt
