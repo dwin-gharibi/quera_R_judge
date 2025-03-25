@@ -1,13 +1,13 @@
 {
     "version": 2,
     "python_version": 3.9,
-    "solution_signature": "solution/run_my_sum.m",
+    "solution_signature": "solution/code.r",
     "number_of_tests": 1,
     "can_submit_single_file": true,
-    "single_file_path": "solution/run_my_sum.m",
+    "single_file_path": "solution/code.r",
     "packages": [
         {
-            "name": "matlab_judge",
+            "name": "R_judge",
             "score": 100,
             "tests": [
                 "test_1"

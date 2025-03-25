@@ -3,14 +3,15 @@ import os
 from scripts.docker_handler import DockerHandler
 from scripts.r_runner import RRunner
 
+
 class TestRPrograms(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         DockerHandler.start_container()
 
-    # @classmethod
-    # def tearDownClass(cls):
-    #     DockerHandler.stop_container()
+    @classmethod
+    def tearDownClass(cls):
+        DockerHandler.stop_container()
 
     def test_1(self):
         r_file = "code.r"
