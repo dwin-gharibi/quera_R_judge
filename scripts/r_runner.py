@@ -4,7 +4,7 @@ from scripts.docker_handler import DockerHandler
 class RRunner:
     SOLUTION_FOLDER = os.path.abspath("solution")
     TEST_CASES_FOLDER = os.path.abspath("test_cases")
-    DOCKER_EXEC = ["docker-compose", "exec", "-T", "octave-container"]
+    DOCKER_EXEC = ["docker-compose", "exec", "-T", "r-container"]
 
     @staticmethod
     def compile_R(asm_file):
